@@ -19,6 +19,7 @@ const configureApp = (app) => {
     app.get('/', (req, res) => {
         res.status(200).json({ message: 'Welcome to A K Traders' });
     });
+    
 };
 
 export default configureApp;
